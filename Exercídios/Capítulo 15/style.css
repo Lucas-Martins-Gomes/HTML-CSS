@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgba(152, 243, 213, 0.61);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: rgb(51, 172, 172);
+}    
+h1.principal{
+    text-align: center;
+}
+h2{
+    color: brown;
+}
+.aprendendo{
+    color:rgba(53, 51, 172, 0.637);
+}
