@@ -4,15 +4,22 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
+:root{
+    --padrao:Verdana, Geneva, Tahoma, sans-serif;
+    --titulo:'Passion One', 'cursive', sans-serif;
+    --texto:'Sriracha', 'cursive', sans-serif;
+}
 
 * {
     margin: 0px;
     padding: 0px;
+    
 }
 
 html, body {
     min-height: 100vh;
     background-color: darkgrey;
+    font-family: var(--padrao);
 }
 
 header{
@@ -24,6 +31,8 @@ header{
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--titulo);
+    font-size: 8vw; /*Usa o vw para que o tamanho das letras aumentem ou diminuem conforme a largura da tela*/
 }
 
 header p {
@@ -45,6 +54,8 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--texto);
+    font-size: 3.5vw;
 }
 
 section.normal {
@@ -58,7 +69,8 @@ section.imagem{
 }
 
 section.imagem > p {
-    width: 400px;
+    display: inline-block;/*O display foi usado para que a caixa envolto do parágrafo se adpte a largura da letra diminuindo e aumentado conforme o conteúdo diminui ou aumenta*/
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.212);
 }
 
