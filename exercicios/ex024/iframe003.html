@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navegação iframe</title>
+    <style>
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe {
+            width:80vh;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Aprendendo a navegar nos iframe</h1>
+
+    <ul>
+        <li><a href="pg001.html" target="tela">Página 1</a></li>
+        <li><a href="pg002.html" target="tela">Página 2</a></li>
+        <li><a href="pg003.html" target="tela">Página 3</a></li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt repudiandae minima corporis iure delectus voluptatibus iste doloremque architecto illo provident, quis autem inventore perferendis commodi et earum hic a error!</p>
+    <iframe srcdoc="<h1>Escolha uma das opções acima</h1><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus numquam vitae molestiae sequi fugiat eum eveniet temporibus, porro ullam adipisci dolore consequuntur non! Deserunt ducimus vitae accusamus, minima odio tempora.</p><img src='img/mapa01.png'>" name="tela"> </iframe>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus numquam vitae molestiae sequi fugiat eum eveniet temporibus, porro ullam adipisci dolore consequuntur non! Deserunt ducimus vitae accusamus, minima odio tempora. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque placeat impedit vel id, vitae, in corrupti laborum sed corporis itaque eveniet totam assumenda est blanditiis quod inventore facere exercitationem vero.</p>
+</body>
+</html>
